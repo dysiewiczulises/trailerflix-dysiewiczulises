@@ -1,0 +1,20 @@
+.genero {
+    margin-bottom: 40px;
+}
+
+.genero h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 4px solid #ff4169;
+    padding-left: 12px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
